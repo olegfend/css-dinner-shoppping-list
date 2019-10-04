@@ -1,0 +1,102 @@
+
+
+html {
+  height: 100%;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font: 26px "Tebuchet MC", Tebuchet, Arial, sans-serif;
+  background-color: #3b3f45;
+  color: #f9f9f9;
+}
+
+.up,
+.down {
+  text-align: center;
+  background: #4a4f56;
+  padding: 3px 0;
+  color: #eb7e7f;
+  
+}
+
+label {
+	padding: 15px;
+}
+
+h1,
+h4 {
+  color: #eb7e7f;
+  font-weight: 600px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h4 {
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.table-container {
+  margin:0 auto;
+  padding: 20px 0;
+  max-width: 700px;
+}
+
+.shop-list {
+  list-style: none;
+  padding: 2px;
+}
+
+.shop-list li {
+  background: #7a7593;
+  border: 0 solid white;
+  padding: 10px;
+}
+
+.shop-list li:nth-child(odd) {
+  background: #88839e;
+}
+
+.shop-list li:active {
+  background: #eb7e7f;
+}
+
+.shop-list [type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-left: 0px;
+  margin-right: 10px;
+   
+}
+
+.shop-list [type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #a3a0b5;
+}
+
+.shop-list label {
+  cursor: pointer;
+}
+
+.shop-list .smaller {
+  font-size: 60%;
+  color: #cdcbd6;
+  vertical-align: middle;
+}
+
+
+.shop-list li:hover {
+	background: #625e77;
+	border-width: 4px 0;
+ }
+
+
+ .shop-list li:active {
+	background: #eb7e7f;
+
